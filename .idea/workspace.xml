@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93132352-039a-4d85-ad4d-6e2702254861" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PlayerCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayerCharacter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PlayerCharacterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayerCharacterTest.java" afterDir="false" />
@@ -22,6 +21,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1W4Nox6EeYrQLLDwrKffaTeDENt" />
   <component name="ProjectViewState">
@@ -52,6 +52,23 @@
       <recent name="" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="PlayerCharacterTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Evercraft-Kata" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlayerCharacterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.PlayerCharacterTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -76,24 +93,64 @@
       <updated>1578405085384</updated>
       <workItem from="1578405086986" duration="1039000" />
     </task>
+    <task id="LOCAL-00001" summary="Player character class and test">
+      <created>1578406408209</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578406408209</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Player character class and test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Player character class and test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="187" width="802" height="673" key="#Menus_and_Toolbars" timestamp="1578405304466">
       <screen x="0" y="0" width="1920" height="1051" />
     </state>
     <state x="555" y="187" width="802" height="673" key="#Menus_and_Toolbars/0.0.1920.1051@0.0.1920.1051" timestamp="1578405304466" />
+    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1578406910930">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578406910930" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1578406853860">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578406853860" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1578406853859">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578406853859" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1578406853859">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578406853859" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1578406853860">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578406853860" />
     <state x="456" y="161" key="SettingsEditor" timestamp="1578405528945">
       <screen x="0" y="0" width="1920" height="1051" />
     </state>
     <state x="456" y="161" key="SettingsEditor/0.0.1920.1051@0.0.1920.1051" timestamp="1578405528945" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1578406466490">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578406466490" />
     <state x="625" y="418" width="646" height="203" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578405990664">
       <screen x="0" y="0" width="1920" height="1051" />
     </state>
     <state x="625" y="418" width="646" height="203" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1051@0.0.1920.1051" timestamp="1578405990664" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578406834040">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1578406834040" />
     <state x="730" y="227" width="444" height="589" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578406124459">
       <screen x="0" y="0" width="1920" height="1051" />
     </state>
