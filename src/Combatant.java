@@ -21,4 +21,8 @@ public abstract class Combatant {
     public boolean attack(Combatant opponent, int dieRoll) {
         return dieRoll > opponent.armorClass;
     }
+
+    public boolean isAlive() {
+        return false;
+    }
 }
