@@ -1,6 +1,7 @@
 public abstract class Combatant {
     private int armorClass = 10;
     private int hitPoints = 5;
+    private int maxHitPoints = 5;
 
     public int getArmorClass() {
         return this.armorClass;
@@ -16,6 +17,13 @@ public abstract class Combatant {
 
     public void setHitPoints(int hitPoints) {
         this.hitPoints = hitPoints;
+    }
+
+    public int getMaxHitPoints() {
+        return 0;
+    }
+
+    public void setMaxHitPoints(int maxHitPoints) {
     }
 
     public boolean attack(Combatant opponent, int dieRoll) {

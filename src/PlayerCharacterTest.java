@@ -38,4 +38,36 @@ public class PlayerCharacterTest {
         assertEquals(10, pc.getConstitution().getScore());
         assertEquals(10, pc.getCharisma().getScore());
     }
+
+    @Test
+    public void lowerMaxHPLimitsHP() {
+        PlayerCharacter pc = new PlayerCharacter("Joe Bob");
+        pc.setHitPoints(11);
+        pc.setMaxHitPoints(9);
+        assertEquals(9, pc.getHitPoints());
+    }
+
+    @Test
+    public void higherMaxHPDoNotLimitHP() {
+        PlayerCharacter pc = new PlayerCharacter("Joe Bob");
+        pc.setHitPoints(11);
+        pc.setMaxHitPoints(12);
+        assertEquals(11, pc.getHitPoints());
+    }
+
+    @Test
+    public void highConstitutionAffectsMaxHP() {
+        PlayerCharacter pc = new PlayerCharacter("Joe Bob");
+        pc.setMaxHitPoints(10);
+        pc.getConstitution().setScore(18);
+        assertEquals(14, pc.getMaxHitPoints());
+    }
+
+    @Test
+    public void defaultConstitutionDoesNotAffectMaxHP() {
+        PlayerCharacter pc = new PlayerCharacter("Joe Bob");
+        pc.setMaxHitPoints(8);
+        pc.getConstitution().setScore(10);
+        assertEquals(8, pc.getMaxHitPoints());
+    }
 }

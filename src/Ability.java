@@ -18,6 +18,10 @@ public class Ability {
         return score;
     }
 
+    public void setScore(int score) {
+        // TODO - make this work
+    }
+
     public int getModifier() {
         return getModifierMap().get(score);
     }

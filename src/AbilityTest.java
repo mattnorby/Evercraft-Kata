@@ -3,6 +3,13 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class AbilityTest {
+    @Test
+    public void itCanBeSet() {
+        Ability ability = new Ability(0);
+        ability.setScore(5);
+        assertEquals(5, ability.getScore());
+    }
+
     @Test(expected = IllegalArgumentException.class)
     public void itCannotBeTooLow() {
         new Ability(0);
