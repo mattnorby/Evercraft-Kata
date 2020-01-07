@@ -1,8 +1,4 @@
-public class PlayerCharacter implements Combatant {
-    public boolean attack(Combatant c, int i) {
-        return false;
-    }
-
+public class PlayerCharacter extends Combatant {
     public static enum Alignment {
         GOOD,
         EVIL,
@@ -11,8 +7,6 @@ public class PlayerCharacter implements Combatant {
 
     private String name;
     private Alignment alignment;
-    private int hitPoints = 5;
-    private int armorClass = 10;
 
     public PlayerCharacter(String name) {
         this.name = name;
@@ -32,23 +26,5 @@ public class PlayerCharacter implements Combatant {
 
     public Alignment getAlignment() {
         return alignment;
-    }
-
-    @Override
-    public int getArmorClass() {
-        return this.armorClass;
-    }
-
-    public void setArmorClass(int armorClass) {
-        this.armorClass = armorClass;
-    }
-
-    @Override
-    public int getHitPoints() {
-        return this.hitPoints;
-    }
-
-    public void setHitPoints(int hitPoints) {
-        this.hitPoints = hitPoints;
     }
 }

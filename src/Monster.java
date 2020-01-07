@@ -1,14 +1,8 @@
-public class Monster implements Combatant {
-    public Monster(int armorClass, int dieRoll) {
-    }
+public class Monster extends Combatant {
+    public Monster() {}
 
-    @Override
-    public int getArmorClass() {
-        return 0;
-    }
-
-    @Override
-    public int getHitPoints() {
-        return 0;
+    public Monster(int armorClass, int hitPoints) {
+        this.setArmorClass(armorClass);
+        this.setHitPoints(hitPoints);
     }
 }
