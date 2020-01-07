@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 public class AbilityTest {
     @Test
     public void itCanBeSet() {
-        Ability ability = new Ability(0);
+        Ability ability = new Ability(10);
         ability.setScore(5);
         assertEquals(5, ability.getScore());
     }
