@@ -1,4 +1,4 @@
-public class PlayerCharacter {
+public class PlayerCharacter implements Combatant {
     public static enum Alignment {
         GOOD,
         EVIL,
@@ -27,4 +27,15 @@ public class PlayerCharacter {
     public Alignment getAlignment() {
         return alignment;
     }
+
+    @Override
+    public int getArmorClass() {
+        return 0;
+    }
+
+    @Override
+    public int getHitPoints() {
+        return 0;
+    }
+
 }

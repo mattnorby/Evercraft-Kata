@@ -15,4 +15,16 @@ public class PlayerCharacterTest {
         pc.setAlignment(PlayerCharacter.Alignment.EVIL);
         assertEquals(pc.getAlignment(), PlayerCharacter.Alignment.EVIL);
     }
+
+    @Test
+    public void defaultArmorClass() {
+        PlayerCharacter pc = new PlayerCharacter("Joe Bob");
+        assertEquals(10, pc.getArmorClass());
+    }
+
+    @Test
+    public void defaultHitPoints() {
+        PlayerCharacter pc = new PlayerCharacter("Joe Bob");
+        assertEquals(5, pc.getHitPoints());
+    }
 }
