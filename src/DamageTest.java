@@ -4,6 +4,9 @@ import static org.junit.Assert.*;
 
 public class DamageTest {
     @Test
+    /**
+     * As an attacker, I want to damage my enemies so that they will die and I will live
+     */
     public void isCombatantDamaged() {
         PlayerCharacter pc = new PlayerCharacter("Billy Bob");
         Combatant c = new Monster(10, 5);

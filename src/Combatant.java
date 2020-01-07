@@ -16,14 +16,20 @@ public abstract class Combatant {
     }
 
     public void setHitPoints(int hitPoints) {
-        this.hitPoints = hitPoints;
+        if (this.hitPoints > this.maxHitPoints) {
+            this.hitPoints = this.maxHitPoints;
+        } else {
+            this.hitPoints = hitPoints;
+        }
     }
 
     public int getMaxHitPoints() {
-        return 0;
+        return maxHitPoints;
     }
 
     public void setMaxHitPoints(int maxHitPoints) {
+        this.maxHitPoints = maxHitPoints;
+        if (hitPoints > maxHitPoints) hitPoints = maxHitPoints;
     }
 
     public boolean attack(Combatant opponent, int dieRoll) {

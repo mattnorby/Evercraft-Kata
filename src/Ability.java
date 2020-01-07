@@ -19,7 +19,10 @@ public class Ability {
     }
 
     public void setScore(int score) {
-        // TODO - make this work
+        if (score < 1 || score > 20) {
+            throw new IllegalArgumentException("Ability scores must be 1-20");
+        }
+        this.score = score;
     }
 
     public int getModifier() {

@@ -5,6 +5,9 @@ import static org.junit.Assert.assertTrue;
 
 public class AttackTest {
     @Test
+    /**
+     * As a combatant, I want to be able to attack other combatants so I can survive to fight another day
+     */
     public void itCanAttackAndHitOtherCombatants() {
         PlayerCharacter pc = new PlayerCharacter("Billy Bob");
         Combatant c = new Monster(10, 5);
