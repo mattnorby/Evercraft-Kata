@@ -1,5 +1,12 @@
 public class PlayerCharacter {
+    public static enum Alignment {
+        GOOD,
+        EVIL,
+        NEUTRAL
+    }
+
     private String name;
+    private Alignment alignment;
 
     public PlayerCharacter(String name) {
         this.name = name;
@@ -13,10 +20,11 @@ public class PlayerCharacter {
         this.name = name;
     }
 
-    public void setAlignment(String evil) {
+    public void setAlignment(Alignment alignment) {
+        this.alignment = alignment;
     }
 
-    public String getAlignment() {
-        return null;
+    public Alignment getAlignment() {
+        return alignment;
     }
 }

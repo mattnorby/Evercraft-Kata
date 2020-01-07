@@ -12,7 +12,7 @@ public class PlayerCharacterTest {
     @Test
     public void itHasAnAlignment() {
         PlayerCharacter pc = new PlayerCharacter("Joe Bob");
-        pc.setAlignment("Evil");
-        assertEquals(pc.getAlignment(), "Evil");
+        pc.setAlignment(PlayerCharacter.Alignment.EVIL);
+        assertEquals(pc.getAlignment(), PlayerCharacter.Alignment.EVIL);
     }
 }
