@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="93132352-039a-4d85-ad4d-6e2702254861" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Combatant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Combatant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PlayerCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayerCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlayerCharacterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayerCharacterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,9 @@
     <property name="create.test.in.the.same.root" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -100,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578406408209</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Alignment test">
+      <created>1578406943996</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578406943996</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,49 +118,74 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Player character class and test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Player character class and test" />
+    <MESSAGE value="Alignment test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alignment test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="187" width="802" height="673" key="#Menus_and_Toolbars" timestamp="1578405304466">
       <screen x="0" y="0" width="1920" height="1051" />
     </state>
     <state x="555" y="187" width="802" height="673" key="#Menus_and_Toolbars/0.0.1920.1051@0.0.1920.1051" timestamp="1578405304466" />
-    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1578406910930">
+    <state x="275" y="23" key="#Project_Structure" timestamp="1578407210249">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578406910930" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1578406853860">
+    <state x="275" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1578407210249" />
+    <state x="488" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1578407921023">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578406853860" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1578406853859">
+    <state x="488" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1578407921023" />
+    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1578406941170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578406853859" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1578406853859">
+    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578406941170" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1578408116130">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578406853859" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1578406853860">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578408116130" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1578408116129">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578406853860" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578408116129" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1578408116129">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578408116129" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1578408116129">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578408116129" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1578408026358">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578408026358" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1578408026358">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1578408026358" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1578408026358">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1578408026358" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1578408026358">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1578408026358" />
     <state x="456" y="161" key="SettingsEditor" timestamp="1578405528945">
       <screen x="0" y="0" width="1920" height="1051" />
     </state>
     <state x="456" y="161" key="SettingsEditor/0.0.1920.1051@0.0.1920.1051" timestamp="1578405528945" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1578406466490">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1578406947280">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578406466490" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578406947280" />
     <state x="625" y="418" width="646" height="203" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578405990664">
       <screen x="0" y="0" width="1920" height="1051" />
     </state>
     <state x="625" y="418" width="646" height="203" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1051@0.0.1920.1051" timestamp="1578405990664" />
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578406834040">
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578407739636">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1578406834040" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1578407739636" />
     <state x="730" y="227" width="444" height="589" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578406124459">
       <screen x="0" y="0" width="1920" height="1051" />
     </state>
@@ -159,5 +194,8 @@
       <screen x="0" y="0" width="1920" height="1051" />
     </state>
     <state x="623" y="232" width="672" height="678" key="search.everywhere.popup/0.0.1920.1051@0.0.1920.1051" timestamp="1578405573399" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/EvercraftKata2$PlayerCharacterTest.ic" NAME="PlayerCharacterTest Coverage Results" MODIFIED="1578407796953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
