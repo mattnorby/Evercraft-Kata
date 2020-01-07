@@ -19,10 +19,17 @@ public abstract class Combatant {
     }
 
     public boolean attack(Combatant opponent, int dieRoll) {
-        return dieRoll > opponent.armorClass;
+        if (dieRoll > opponent.getArmorClass()) {
+            if (dieRoll == 20) {
+                opponent.hitPoints -= 2;
+            } else {
+                opponent.hitPoints--;
+            }
+            return true;
+        } else return false;
     }
 
     public boolean isAlive() {
-        return false;
+        return (hitPoints > 0);
     }
 }
