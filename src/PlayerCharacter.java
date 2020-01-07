@@ -1,4 +1,8 @@
 public class PlayerCharacter implements Combatant {
+    public boolean attack(Combatant c, int i) {
+        return false;
+    }
+
     public static enum Alignment {
         GOOD,
         EVIL,

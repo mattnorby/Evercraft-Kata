@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93132352-039a-4d85-ad4d-6e2702254861" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AttackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Monster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Combatant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Combatant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PlayerCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayerCharacter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,8 +55,11 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AttackTest">
     <configuration name="PlayerCharacterTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Evercraft-Kata" />
       <option name="PACKAGE_NAME" value="" />
@@ -66,8 +70,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AttackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Evercraft-Kata" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AttackTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AttackTest" />
         <item itemvalue="Android JUnit.PlayerCharacterTest" />
       </list>
     </recent_temporary>
@@ -110,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578406943996</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="hit points and armor class">
+      <created>1578408150376</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578408150376</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +140,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Player character class and test" />
     <MESSAGE value="Alignment test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alignment test" />
+    <MESSAGE value="hit points and armor class" />
+    <option name="LAST_COMMIT_MESSAGE" value="hit points and armor class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="187" width="802" height="673" key="#Menus_and_Toolbars" timestamp="1578405304466">
@@ -130,30 +152,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1578407210249" />
-    <state x="488" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1578407921023">
+    <state x="488" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1578408752956">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1578407921023" />
-    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1578406941170">
+    <state x="488" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1578408752956" />
+    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1578408769334">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578406941170" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1578408116130">
+    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578408769334" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1578408818138">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578408116130" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1578408116129">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578408818138" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1578408818137">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578408116129" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1578408116129">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578408818137" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1578408818137">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578408116129" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1578408116129">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578408818137" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1578408818137">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578408116129" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578408818137" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1578408026358">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -174,10 +196,10 @@
       <screen x="0" y="0" width="1920" height="1051" />
     </state>
     <state x="456" y="161" key="SettingsEditor/0.0.1920.1051@0.0.1920.1051" timestamp="1578405528945" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1578406947280">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1578408155530">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578406947280" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578408155530" />
     <state x="625" y="418" width="646" height="203" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578405990664">
       <screen x="0" y="0" width="1920" height="1051" />
     </state>
