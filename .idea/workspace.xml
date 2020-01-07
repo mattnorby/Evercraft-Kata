@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93132352-039a-4d85-ad4d-6e2702254861" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Ability.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbilityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Combatant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Combatant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlayerCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayerCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlayerCharacterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayerCharacterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +60,22 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DamageTest">
+  <component name="RunManager" selected="JUnit.PlayerCharacterTest">
     <configuration name="PlayerCharacterTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Evercraft-Kata" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PlayerCharacterTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AbilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Evercraft-Kata" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AbilityTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,8 +98,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlayerCharacterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Evercraft-Kata" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlayerCharacterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlayerCharacterTest" />
+        <item itemvalue="JUnit.AbilityTest" />
         <item itemvalue="JUnit.DamageTest" />
         <item itemvalue="JUnit.AttackTest" />
         <item itemvalue="Android JUnit.PlayerCharacterTest" />
@@ -146,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578408843387</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="damage implementation - tests passed">
+      <created>1578409931405</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578409931405</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +187,8 @@
     <MESSAGE value="Alignment test" />
     <MESSAGE value="hit points and armor class" />
     <MESSAGE value="attack test" />
-    <option name="LAST_COMMIT_MESSAGE" value="attack test" />
+    <MESSAGE value="damage implementation - tests passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="damage implementation - tests passed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="187" width="802" height="673" key="#Menus_and_Toolbars" timestamp="1578405304466">
@@ -172,26 +203,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1578408752956" />
-    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1578408840980">
+    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1578409929128">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578408840980" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1578409903752">
+    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578409929128" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1578412107627">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578409903752" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1578409903752">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578412107627" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1578412107626">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578409903752" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1578409903751">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578412107626" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1578412107625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578409903751" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1578409903752">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578412107625" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1578412107626">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578409903752" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578412107626" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1578408026358">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -212,10 +243,10 @@
       <screen x="0" y="0" width="1920" height="1051" />
     </state>
     <state x="456" y="161" key="SettingsEditor/0.0.1920.1051@0.0.1920.1051" timestamp="1578405528945" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1578408847502">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1578409935887">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578408847502" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578409935887" />
     <state x="625" y="418" width="646" height="203" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578405990664">
       <screen x="0" y="0" width="1920" height="1051" />
     </state>
@@ -228,10 +259,10 @@
       <screen x="0" y="0" width="1920" height="1051" />
     </state>
     <state x="730" y="227" width="444" height="589" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1051@0.0.1920.1051" timestamp="1578406124459" />
-    <state x="443" y="161" width="672" height="470" key="search.everywhere.popup" timestamp="1578409839721">
+    <state x="443" y="161" width="672" height="470" key="search.everywhere.popup" timestamp="1578411263154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="443" y="161" width="672" height="470" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1578409839721" />
+    <state x="443" y="161" width="672" height="470" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1578411263154" />
     <state x="623" y="232" width="672" height="678" key="search.everywhere.popup/0.0.1920.1051@0.0.1920.1051" timestamp="1578405573399" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">

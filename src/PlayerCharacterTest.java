@@ -1,3 +1,4 @@
+import com.sun.javaws.exceptions.InvalidArgumentException;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -26,5 +27,16 @@ public class PlayerCharacterTest {
     public void defaultHitPoints() {
         PlayerCharacter pc = new PlayerCharacter("Joe Bob");
         assertEquals(5, pc.getHitPoints());
+    }
+
+    @Test
+    public void defaultCharacterHasAbilities10() {
+        PlayerCharacter pc = new PlayerCharacter("Default Guy");
+        assertEquals(10, pc.getStrength().getScore());
+        assertEquals(10, pc.getIntelligence().getScore());
+        assertEquals(10, pc.getWisdom().getScore());
+        assertEquals(10, pc.getDexterity().getScore());
+        assertEquals(10, pc.getConstitution().getScore());
+        assertEquals(10, pc.getCharisma().getScore());
     }
 }
